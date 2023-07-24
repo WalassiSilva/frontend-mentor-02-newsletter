@@ -19,7 +19,3 @@ form.addEventListener('submit', (e) => {
         form.classList.add('invalid');
     }
 })
-
-btnDismiss.addEventListener('click', () =>{
-    
-})
