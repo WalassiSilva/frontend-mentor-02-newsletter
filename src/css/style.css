@@ -14,8 +14,7 @@ body{
     
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .container.hide,
@@ -57,7 +56,6 @@ body{
     height: 20px;
     float: left;
     margin-right: 20px;
-
 }
 
 .container .form {
@@ -104,18 +102,18 @@ body{
     color: #FFF;
     font-weight: 700;
     cursor: pointer;
-    /* transition: 0.5s ease; */
+    transition: 0.2s ease; 
 }
 
 .container .form .btn-subscribe:hover,
 .container-2 .btn-dismiss:hover{
     background: linear-gradient(90deg, #ff5757 0%, #ffa357 100%);
+    background: #ff5757;
 }
 
 .container .img-side {
     text-align: right;
 }
-
 
 /* CONTAINER 2 */
 .container-2 {
